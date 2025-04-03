@@ -1,6 +1,7 @@
 # dropdown widget
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LinearRegression,RANSACRegressor
 from sklearn.preprocessing import RobustScaler,LabelEncoder
